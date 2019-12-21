@@ -17,7 +17,8 @@ class Person{
 
     }
     incrementLevel(){
-        this.xinc-=0.5
+        if(this.xinc  <= 3) return;
+        this.xinc-=0.3;
     }
     render(){
         if(this.state == this.STATES.NORMAL)
@@ -80,7 +81,7 @@ class Person{
     }
 
     hasCollided(block){
-        
+        return dist(this.pos.x, this.pos.y, block.x, block.y) < this.radius/2 + block.width/2; 
     }
 
 }
