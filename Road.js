@@ -1,3 +1,5 @@
-function setup(){
-    line(200,200,400,400);
+class Road{
+     render(){
+        line(0,height-10,width-10,height-10);
+    }
 }
