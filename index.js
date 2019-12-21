@@ -37,7 +37,7 @@ let i;
 
 
     function preload(){
-        i=loadImage('./images.jpg');
+        i=loadImage('./LastMoon.png');
     }
 
 function draw(){
@@ -77,9 +77,10 @@ function draw(){
         
 
     }
+    R.DrawStars(i);
     // R.render();
     p.move();
-    fill(255);
+    fill(255, 0, 0);
     p.render(smiley);
     obstacles.forEach(elem=>{
         if(p.hasCollided(elem)){
