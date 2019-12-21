@@ -1,0 +1,3 @@
+Create obstacle object.
+Create person object.
+Create road.
