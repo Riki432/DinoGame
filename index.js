@@ -14,7 +14,7 @@ let i;
 
 
     function preload(){
-        i=loadImage('./images.jpg');
+        i=loadImage('./LastMoon.png');
         
         
 
